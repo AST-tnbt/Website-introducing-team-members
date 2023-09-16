@@ -13,7 +13,7 @@ const data = [
         code: "22521267",
         class: "HTTT2022.2",
         birthplace: "Đăk Nông.",
-        hobby: "Chơi bóng đá , bóng chuyền, chơi game, đi phượt, tham gia các seminar về khoa học công nghệ."
+        hobby: "Chơi bóng đá, bóng chuyền, chơi game, đi phượt, tham gia các seminar về khoa học công nghệ."
     },
     {
         img: "./img/phát.png",
@@ -37,7 +37,7 @@ const data = [
         code: "22521656",
         class: "HTTT2022.2",
         birthplace: "Phú Yên.",
-        hobby: "Đọc truyện , leo núi."
+        hobby: "Đọc truyện, leo núi."
     }
 ];
 
