@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./img/logo.png">
+    <title>The Wolf Pack</title>
+</head>
+<body>
+    <div class="app">
+        <header>
+            <div class="header-box">
+                <img src="./img/logo.png" class="logo" alt="Logo">
+                <div class="text__box">
+                    <h1 class="team__name">THE WOLF PACK</h1>
+                    <h2 class="team__slogan">Together Everyone Achieves More
+                    </h2> 
+                    <div class="line-horizon show"></div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="member-box">
+                <div class="touch-box" onclick="displayInfoBox(0)">
+                    <img src="./img/vĩnh tròn.png" class="member__img" alt="Member avatar">
+                    <h2 class="member__name">VÕ ĐỨC VĨNH</h2>
+                    <h3 class="member__code">22521684</h3>
+                    <div class="line-horizon"></div>
+                </div>
+            </div>
+            <div class="member-box">
+                <div class="touch-box" onclick="displayInfoBox(1)">
+                    <img src="./img/súa tròn.png" class="member__img" alt="Member avatar">
+                    <h2 class="member__name">DƯƠNG VĂN SÚA</h2>
+                    <h3 class="member__code">22521267</h3>
+                    <div class="line-horizon"></div>
+                </div>
+            </div>
+            <div class="member-box">
+                <div class="touch-box" onclick="displayInfoBox(2)">
+                    <img src="./img/phát tròn.png" class="member__img" alt="Member avatar">
+                    <h2 class="member__name">NGUYỄN THỊNH PHÁT</h2>
+                    <h3 class="member__code">22521075</h3>
+                    <div class="line-horizon"></div>
+                </div>
+            </div>
+            <div class="member-box">
+                <div class="touch-box-r" onclick="displayInfoBox(3)">
+                    <img src="./img/tín tròn.png" class="member__img" alt="Member avatar">
+                    <h2 class="member__name">TRỊNH NGUYÊN BẢO TÍN</h2>
+                    <h3 class="member__code">22521482</h3>
+                    <div class="line-horizon"></div>
+                </div>
+            </div>
+            <div class="member-box">
+                <div class="touch-box-l" onclick="displayInfoBox(4)">
+                    <img src="./img/vĩ tròn.png" class="member__img" alt="Member avatar">
+                    <h2 class="member__name">NGUYỄN CHÍ VĨ</h2>
+                    <h3 class="member__code">22521656</h3>
+                    <div class="line-horizon"></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal__layer" id="modal__layer" onclick="closeInfoBox()"></div>
+        <div class="modal__box" id="info__box">
+            <!-- <i class="fa-solid fa-circle-xmark close-icon"></i>
+            <img src="./img/vĩnh.png" alt="Member Image" class="modal__box__img">
+            <div class="info-member">
+                <h2 class="info-member__name">VÕ ĐỨC VĨNH</h2>
+                <h2 class="info-member__code">22521684</h2>
+                <div class="separate-line"></div>
+                <h2 class="info-member__class">Lớp: HTTT2022.2</h2>
+                <h2 class="info-member__birthplace">Quê quán: Quảng Ngãi. </h2>
+                <h2 class="info-member__birthplace">Sở thích: Chơi game, chơi bóng chuyền. </h2>
+            </div> -->
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
