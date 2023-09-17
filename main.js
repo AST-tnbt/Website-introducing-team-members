@@ -21,7 +21,7 @@ const data = [
         code: "22521075",
         class: "MMT2022.2",
         birthplace: "Quảng Ngãi.",
-        hobby: "Chơi game, chơi bóng chuyền."
+        hobby: "Chơi game, âm nhạc, mỹ thuật."
     },
     {
         img: "./img/tín.png",
