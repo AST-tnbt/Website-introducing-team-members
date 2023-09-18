@@ -8,12 +8,12 @@ const data = [
         hobby: "Chơi game, chơi bóng chuyền."
     },
     {
-        img: "./img/súa.png",
-        name: "DƯƠNG VĂN SÚA",
-        code: "22521267",
+        img: "./img/tín.png",
+        name: "TRỊNH NGUYÊN BẢO TÍN",
+        code: "22521482",
         class: "HTTT2022.2",
-        birthplace: "Đăk Nông.",
-        hobby: "Chơi bóng đá, bóng chuyền, chơi game, đi phượt, tham gia các seminar về khoa học công nghệ."
+        birthplace: "Quảng Ngãi.",
+        hobby: "Đọc sách, âm nhạc, chơi game."
     },
     {
         img: "./img/phát.png",
@@ -24,12 +24,12 @@ const data = [
         hobby: "Chơi game, âm nhạc, mỹ thuật."
     },
     {
-        img: "./img/tín.png",
-        name: "TRỊNH NGUYÊN BẢO TÍN",
-        code: "22521482",
+        img: "./img/súa.png",
+        name: "DƯƠNG VĂN SÚA",
+        code: "22521267",
         class: "HTTT2022.2",
-        birthplace: "Quảng Ngãi.",
-        hobby: "Đọc sách, âm nhạc, chơi game."
+        birthplace: "Đăk Nông.",
+        hobby: "Chơi bóng đá, bóng chuyền, chơi game, đi phượt, tham gia các seminar về khoa học công nghệ."
     },
     {
         img: "./img/vĩ.png",
